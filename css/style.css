@@ -3,6 +3,10 @@ Colors used:
 Primary Color ():
 Secondary Color ():
 */
+img {
+  width: 100%;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Hind Guntur', sans-serif;
