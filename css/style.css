@@ -39,17 +39,17 @@ h4 {
 }
 
 a {
-  color: #fbfbfb;
+  color: #0957EA;
   text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
-  color: #ff7f50;
+  color: #0957EA;
 }
 a:active { /* selected link */
-  color: #0f0f17;
+  color: #DB53AE;
 }
 a:hover,
 a:focus  {
-  color: #0f0f17;
+  color: #5C2349;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
