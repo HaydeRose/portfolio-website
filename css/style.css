@@ -37,3 +37,19 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
+a {
+  color: #ff7f50;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+  color: #ff7f50;
+}
+a:active { /* selected link */
+  color: #994c30;
+}
+a:hover,
+a:focus  {
+  color: #0f0f17;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
