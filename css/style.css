@@ -39,33 +39,36 @@ h4 {
 }
 
 a {
-  color: #0957EA;
+  color: #ff7f50;
   text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
-  color: #0957EA;
+  color: #ff7f50;
 }
 a:active { /* selected link */
-  color: #DB53AE;
+  color: #994c30;
 }
 a:hover,
 a:focus  {
-  color: #5C2349;
+  color: #cc6540;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 /* Make sure you put this rule at the END of your “styles.css” document. It needs to go close to the bottom; otherwise, it could get overwritten by other less specific rules, such as the general styling rules for all of your hyperlinks */
 .button {
   display: inline-block;
-  background-color: #0f0f17;
+  background-color: #ff7f50;
   color: #fbfbfb; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0f0f17; /* width of the border, type, color */
+  border-bottom: 2px solid #994c30; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
   opacity: 0.8; /* Opacity of the button to 80% */
   text-decoration: none;
+}
+.button:active{
+  color: #994c30;
 }
