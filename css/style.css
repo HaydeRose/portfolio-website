@@ -1,11 +1,18 @@
 /*
 Colors used:
-Primary Color ():
+Primary Color (#0f0f17):
 Secondary Color ():
 */
 img {
   width: 100%;
 }
+
+/*
+Hind Guntur font weights
+Light 300
+Regular 400
+SemiBold 600
+*/
 
 body {
   background-color: #ffffff;
@@ -13,25 +20,40 @@ body {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+  color: #0f0f17;
 }
 
+/*
+Playfair Display font weights
+Regular 400
+Regular 400 Italic
+Medium 500
+SemiBold 600
+SemiBold 600 Italic
+Bold 700
+*/
+
 h1, h2, h3, h4 {
+  background-color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.4;
+  color: #5C2349;
 }
 h1 {
   font-size: 2.75em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 2.25em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.75em;
-  font-weight: 400;
+  font-weight: 500;
 }
 h4 {
   font-size: 1.35em;
