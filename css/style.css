@@ -61,12 +61,11 @@ a:active { /* selected link */
 .button:active{
   color: #994c30;
 }
-
 /* Make sure you put this rule at the END of your “styles.css” document. It needs to go close to the bottom; otherwise, it could get overwritten by other less specific rules, such as the general styling rules for all of your hyperlinks */
 .button {
   display: inline-block;
   background-color: #ff7f50;
-  color: #ffffff; /* needed to override the default link color */
+  color: #0f0f17; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
