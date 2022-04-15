@@ -1,8 +1,11 @@
 /*
 Colors used:
-Primary Color (#0f0f17):
-Secondary Color ():
+body: #0f0f17
+headers: #5C2349
+button (learn more):
+button (Email/Resume):
 */
+
 img {
   width: 100%;
 }
@@ -13,7 +16,6 @@ Light 300
 Regular 400
 SemiBold 600
 */
-
 body {
   background-color: #ffffff;
   font-family: 'Hind Guntur', sans-serif;
@@ -32,7 +34,6 @@ SemiBold 600
 SemiBold 600 Italic
 Bold 700
 */
-
 h1, h2, h3, h4 {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
@@ -64,16 +65,16 @@ a {
   color: #DB53AE;
   text-decoration: none; /* No underlining */
 }
+a:hover,
+a:focus  {
+  color: #0f0f17;
+  text-decoration: none; /* Underlining when hovering over a link */
+}
 a:visited { /* visited link */
   color: #DB53AE;
 }
-a:hover,
-a:focus  {
-  color: #5C2349;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
 a:active { /* selected link */
-  color: #5C2349;
+  color: #0f0f17;
 }
 
 
