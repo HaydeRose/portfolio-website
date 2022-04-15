@@ -5,7 +5,6 @@ headers: #5C2349
 button (learn more):
 button (Email/Resume):
 */
-
 img {
   width: 100%;
 }
@@ -13,9 +12,11 @@ img {
 body {
   background-color: lightgrey;
 }
+
 footer {
   background-color: #F5E2EF;
 }
+
 /*
 Hind Guntur font weights
 Light 300
@@ -25,9 +26,12 @@ SemiBold 600
 body {
   background-color: #ffffff;
   font-family: 'Hind Guntur', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #0f0f17;
 }
 
@@ -43,11 +47,14 @@ Bold 700
 h1, h2, h3, h4 {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
   line-height: 1.4;
   color: #5C2349;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -62,6 +69,7 @@ h3 {
   font-size: 1.75em;
   font-weight: 500;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
@@ -69,52 +77,68 @@ h4 {
 
 a {
   color: #DB53AE;
-  text-decoration: none; /* No underlining */
-}
-a:hover,
-a:focus  {
-  color: #0f0f17;
-  text-decoration: none; /* Underlining when hovering over a link */
-}
-a:visited { /* visited link */
-  color: #DB53AE;
-}
-a:active { /* selected link */
-  color: #0f0f17;
+  text-decoration: none;
+  /* No underlining */
 }
 
+a:hover,
+a:focus {
+  color: #0f0f17;
+  text-decoration: none;
+  /* Underlining when hovering over a link */
+}
+
+a:visited {
+  /* visited link */
+  color: #DB53AE;
+}
+
+a:active {
+  /* selected link */
+  color: #0f0f17;
+}
 
 /* Make sure you put this rule at the END of your “styles.css” document. It needs to go close to the bottom; otherwise, it could get overwritten by other less specific rules, such as the general styling rules for all of your hyperlinks */
 .button {
   display: inline-block;
   background-color: #F5BEE3;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #F5BEE3; /* width of the border, type, color */
+  border-bottom: 2px solid #F5BEE3;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
   display: inline-block;
   background-color: #0f0f17;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0f0f17; /* width of the border, type, color */
-  opacity: 0.8; /* Opacity of the button to 80% */
+  border-bottom: 2px solid #0f0f17;
+  /* width of the border, type, color */
+  opacity: 0.8;
+  /* Opacity of the button to 80% */
   text-decoration: none;
 }
-.button:active{
+
+.button:active {
   display: inline-block;
   background-color: #0f0f17;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0f0f17; /* width of the border, type, color */
-  opacity: 0.8; /* Opacity of the button to 80% */
+  border-bottom: 2px solid #0f0f17;
+  /* width of the border, type, color */
+  opacity: 0.8;
+  /* Opacity of the button to 80% */
   text-decoration: none;
 }
 
@@ -124,6 +148,7 @@ a:active { /* selected link */
   text-transform: uppercase;
   border: 2px solid #DB53AE;
 }
+
 .button.contact:hover {
   background-color: #DB53AE;
   color: #ffffff;
