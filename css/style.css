@@ -9,6 +9,10 @@ img {
   width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: lightgrey;
 }
@@ -23,6 +27,7 @@ header {
   margin: 10px;
   border-bottom: 3px solid #4A4A4A;
 }
+
 
 /*
 Hind Guntur font weights
