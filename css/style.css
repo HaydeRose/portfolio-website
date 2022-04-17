@@ -9,25 +9,6 @@ img {
   width: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: lightgrey;
-}
-
-footer {
-  background-color: #F5E2EF;
-}
-
-header {
-  background-color: #F5E2EF;
-  padding: 10px;
-  margin: 10px;
-  border-bottom: 3px solid #4A4A4A;
-}
-
 /*
 Hind Guntur font weights
 Light 300
@@ -113,6 +94,26 @@ a:active {
 /* Layout styling */
 .container {
   padding: 0 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #F5E2EF;
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px;
+  border-bottom: 3px solid #4A4A4A;
+}
+
+footer {
+  background-color: #F5E2EF;
 }
 
 .row {
