@@ -37,7 +37,6 @@ SemiBold 600 Italic
 Bold 700
 */
 h1, h2, h3, h4 {
-  background-color: #ffffff;
   font-family: 'Playfair Display', serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -80,28 +79,25 @@ a:focus {
   text-decoration: none;
   /* Underlining when hovering over a link */
 }
-
 a:visited {
   /* visited link */
   color: #DB53AE;
 }
-
 a:active {
   /* selected link */
   color: #0f0f17;
 }
 
 /* Layout styling */
+body {
+  background-color: #ffffff;
+}
 .container {
   padding: 0 15px;
 }
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  background-color: #ffffff;
 }
 
 header {
@@ -160,6 +156,13 @@ nav > ul > li > a:active {
   text-transform: uppercase;
   font-weight: 600;
   color: #0f0f17;
+}
+
+#hero {
+  background-color: #F5E2EF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 /* Make sure you put this rule at the END of your “styles.css” document. It needs to go close to the bottom; otherwise,
