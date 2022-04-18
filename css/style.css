@@ -89,9 +89,14 @@ a:active {
 }
 
 /* Layout styling */
+main {
+  padding-top: 133px;
+}
+
 body {
   background-color: #ffffff;
 }
+
 .container {
   padding: 0 15px;
 }
@@ -102,10 +107,12 @@ body {
 
 header {
   background-color: #F5E2EF;
+  position: fixed;
   text-align: center;
   padding: 10px 0;
   margin: 10px;
   border-bottom: 3px solid #4A4A4A;
+  box-shadow: 10px rgba(50, 50, 50, 0.75);
 }
 
 footer {
