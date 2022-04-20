@@ -143,32 +143,32 @@ a:active {
 nav {
   display: block;
 }
-nav > ul {
+nav ul {
   list-style-type: none;
   padding: 0;
 }
-nav > ul > li {
+nav ul li {
   display: inline-block;
 }
-nav > ul > li > a {
+nav ul li a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
   color: #4a4a4a;
 }
-nav > ul > li > a:visited {
+nav ul li a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
   color: #DB53AE;
 }
-nav > ul > li > a:hover {
+nav ul li a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
   color: #0f0f17;
 }
-nav > ul > li > a:active {
+nav ul li a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
