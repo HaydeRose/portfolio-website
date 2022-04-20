@@ -124,6 +124,11 @@ footer {
   width: 100%;
 }
 
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
 /* links */
 a:hover,
 a:focus {
@@ -140,9 +145,6 @@ a:active {
   color: #0f0f17;
 }
 
-nav {
-  display: block;
-}
 nav ul {
   list-style-type: none;
   padding: 0;
