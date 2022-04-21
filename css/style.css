@@ -94,7 +94,7 @@ header {
   position: fixed;
   width:100%;
   text-align: center;
-  padding: 10 15px;
+  padding: 10px 0;
   margin: 0 0 10px 0;
   box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
@@ -104,7 +104,7 @@ footer {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding: 10 15px;
+  padding: 10px 0;
   margin: 0 0 10px 0;
 }
 
@@ -271,4 +271,23 @@ it could get overwritten by other less specific rules, such as the general styli
 .button.contact:hover {
   background-color: #DB53AE;
   color: #ffffff;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
