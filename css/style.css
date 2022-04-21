@@ -118,6 +118,10 @@ footer {
   text-align: center; /* Centers text */
 }
 
+#hero p {
+  text-align: center; /* Centers text */
+}
+
 .logo {
   max-width: 250px;
 }
@@ -290,6 +294,9 @@ Medium devices (640px and larger)
  }
  main {
    padding-top: 222.91px;
+ }
+ body {
+   font-size: 18px;
  }
 }
 
