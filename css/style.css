@@ -122,6 +122,9 @@ footer {
   text-align: center; /* Centers text */
 }
 
+#heading h2{
+  text-align: center; /* Centers text */
+}
 .logo {
   max-width: 250px;
 }
@@ -308,6 +311,9 @@ Medium devices (640px and larger)
   content: "";
   clear: both;
   display: table;
+}
+#about-page h3 {
+  margin-top: 0;
 }
 }
 
