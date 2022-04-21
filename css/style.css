@@ -101,6 +101,11 @@ header {
 
 footer {
   background-color: #F5E2EF;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10 15px;
+  margin: 0 0 10px 0;
 }
 
 .row {
@@ -145,6 +150,7 @@ a:active {
   color: #0f0f17;
 }
 
+/*nav styling*/
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -177,6 +183,38 @@ nav ul li a:active {
   color: #0f0f17;
 }
 
+/*footer styling*/
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+footer ul li a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #DB53AE;
+}
+footer ul li a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #0f0f17;
+}
+footer ul li a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #0f0f17;
+}
 
 /* Make sure you put this rule at the END of your “styles.css” document. It needs to go close to the bottom; otherwise,
 it could get overwritten by other less specific rules, such as the general styling rules for all of your hyperlinks */
