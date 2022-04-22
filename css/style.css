@@ -225,43 +225,34 @@ it could get overwritten by other less specific rules, such as the general styli
 .button {
   display: inline-block;
   background-color: #F5BEE3;
-  color: #ffffff;
-  /* needed to override the default link color */
+  color: #ffffff;/* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #F5BEE3;
-  /* width of the border, type, color */
+  border-bottom: 2px solid #F5BEE3;/* width of the border, type, color */
   transition:  0.2s opacity;
 }
 
 .button:hover {
   display: inline-block;
   background-color: #0f0f17;
-  color: #ffffff;
-  /* needed to override the default link color */
+  color: #ffffff;/* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0f0f17;
-  /* width of the border, type, color */
-  opacity: 0.8;
-  /* Opacity of the button to 80% */
+  border-bottom: 2px solid #0f0f17;/* width of the border, type, color */
+  opacity: 0.8;/* Opacity of the button to 80% */
   text-decoration: none;
 }
 
 .button:active {
   display: inline-block;
   background-color: #0f0f17;
-  color: #ffffff;
-  /* needed to override the default link color */
+  color: #ffffff;/* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0f0f17;
-  /* width of the border, type, color */
-  opacity: 0.8;
-  /* Opacity of the button to 80% */
+  border-bottom: 2px solid #0f0f17;/* width of the border, type, color */
   text-decoration: none;
 }
 
@@ -270,11 +261,13 @@ it could get overwritten by other less specific rules, such as the general styli
   color: #DB53AE;
   text-transform: uppercase;
   border: 2px solid #DB53AE;
+  transition:  0.2s opacity;
 }
 
 .button.contact:hover {
   background-color: #DB53AE;
   color: #ffffff;
+  opacity: 0.8;/* Opacity of the button to 80% */
 }
 
 
