@@ -232,7 +232,7 @@ it could get overwritten by other less specific rules, such as the general styli
   border-radius: 3px;
   border-bottom: 2px solid #F5BEE3;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition:  0.2s opacity;
 }
 
 .button:hover {
