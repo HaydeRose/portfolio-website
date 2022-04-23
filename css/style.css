@@ -318,10 +318,13 @@ Medium devices (640px and larger)
    margin-top: 4px;
  }
  main {
-   padding-top: 222.91px;
+   padding-top: 99px;
  }
  body {
    font-size: 18px;
+ }
+ .cls-2 {
+   font-size: 1.5px;
  }
  .col-md-6 {
   width: 50%;
