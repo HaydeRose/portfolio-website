@@ -223,6 +223,14 @@ footer ul li a:active {
   color: #0f0f17;
 }
 
+@keyframes pajaro-move {
+  from {transform: translate(50,50px);}
+  to {transform: translate(200px,50px);}
+}
+.pajaro {
+  animation: 20s pajaro-move infinite alternate linear;
+}
+
 @keyframes color-change {
   from {fill: #edc655;}
   to {fill: #f76414;}
