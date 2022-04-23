@@ -223,20 +223,33 @@ footer ul li a:active {
   color: #0f0f17;
 }
 
+@keyframes color-change {
+  0% {fill: red;}
+  100% {fill: yellow;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
 @keyframes pajaro-move {
-  from {transform: translate(50,50px);}
+  from {transform: translate(50px,50px);}
   to {transform: translate(1000px,50px);}
 }
 .pajaro {
-  animation: 30s pajaro-move infinite normal linear;
+  animation: 35s pajaro-move infinite normal linear;
 }
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+@keyframes cloud-move {
+  from {transform: translate(0,604px);}
+  to {transform: translate(134px,604px);}
 }
-.sol {
-  animation: 4s color-change infinite alternate linear;
+.nube-1 {
+  animation: 35s cloud-move infinite normal linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(1070px,827px);}
+  to {transform: translate(600px,827px);}
+}
+.nube-2 {
+  animation: 40s cloud-move-reverse infinite normal linear;
 }
 
 
