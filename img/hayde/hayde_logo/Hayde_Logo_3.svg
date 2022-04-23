@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lass="logo" id="logo" width="168" height="68" viewBox="0 0 168 68">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Hayde_Logo_3);
+      }
+
+      .cls-2 {
+        fill: #f806a5;
+        font-size: 20px;
+        font-family: Zapfino;
+      }
+    </style>
+    <clipPath id="clip-Hayde_Logo_3">
+      <rect width="168" height="68"/>
+    </clipPath>
+  </defs>
+  <g id="Hayde_Logo_3" class="cls-1">
+    <text id="Hayde_Rose_" data-name="Hayde Rose " class="cls-2" transform="translate(6 38)"><tspan x="0" y="0">Hayde Rose </tspan></text>
+  </g>
+</svg>
