@@ -106,6 +106,14 @@ footer {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+.info {
+  margin: 18px 0;
+}
+
+.social {
+  margin: 40px 0 18px 0;
+}
+
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 
 #hero h1 {
