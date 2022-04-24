@@ -340,6 +340,7 @@ Medium devices (640px and larger)
 [class*="col-"] {
   float: left;
   padding: 0 10px 0 10px;
+  text-align: center;
 }
 .row:after {
   content: "";
@@ -355,15 +356,16 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .col-lg-7 {
+.col-lg-7 {
    width: 58.33%;
  }
- .col-lg-6 {
+ .col-lg-5 {
   width: 41.66%;
 }
 [class*="col-"] {
   float: left;
   padding: 0 10px 0 10px;
+  text-align: center;
 }
 .row:after {
   content: "";
