@@ -136,7 +136,7 @@ footer {
 }
 
 #my-story h3 {
-  margin: 30px 0 0 10px;
+  margin: 30px 0 10px 0;
 }
 
 nav {
@@ -350,7 +350,7 @@ Medium devices (640px and larger)
   clear: both;
   display: table;
 }
-#about-page h3 {
+#about-page h4 {
   margin-top: 0;
 }
 }
