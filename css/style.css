@@ -139,6 +139,10 @@ footer {
   margin: 30px 0 10px 0;
 }
 
+#project-case h3{
+  text-align: center; /* Centers text */
+}
+
 nav {
   display: inline-block;
   width: 100%;
