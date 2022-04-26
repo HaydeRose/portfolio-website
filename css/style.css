@@ -239,13 +239,6 @@ footer ul li a:active {
   color: #0f0f17;
 }
 
-@keyframes color-change {
-  0% {fill: red;}
-  100% {fill: yellow;}
-}
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
 @keyframes pajaro-move {
   from {transform: translate(50px,50px);}
   to {transform: translate(1000px,50px);}
