@@ -317,13 +317,6 @@ it could get overwritten by other less specific rules, such as the general styli
   transition:  0.2s opacity;
 }
 
-/* I am tryig to place the resume button in the center */
-.button.contact.resume {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
-
 .button.contact:hover {
   background-color: #DB53AE;
   color: #ffffff;
