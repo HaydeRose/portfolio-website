@@ -143,6 +143,13 @@ footer {
   text-align: center; /* Centers text */
 }
 
+.me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 nav {
   display: inline-block;
   width: 100%;
@@ -304,6 +311,12 @@ it could get overwritten by other less specific rules, such as the general styli
   text-transform: uppercase;
   border: 2px solid #DB53AE;
   transition:  0.2s opacity;
+}
+
+.button.contact.resume {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
 .button.contact:hover {
