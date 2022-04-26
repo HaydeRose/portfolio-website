@@ -135,6 +135,10 @@ footer {
   width: 100%;
 }
 
+#about-me{
+  background-color: #F5E2EF;
+}
+
 #my-story h3 {
   margin: 30px 0 10px 0;
 }
