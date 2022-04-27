@@ -323,6 +323,15 @@ it could get overwritten by other less specific rules, such as the general styli
   opacity: 0.8;/* Opacity of the button to 80% */
 }
 
+/* View resume button */
+.resume {
+  text-align: center;
+}
+
+/* View prototype button */
+.prototype {
+  text-align: center;
+}
 
 /* ==============================
 Medium devices (640px and larger)
