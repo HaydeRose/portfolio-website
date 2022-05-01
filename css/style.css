@@ -6,9 +6,7 @@ body: #0f0f17
 headers: #5C2349
 body background:
 */
-img {
-  width: 100%;
-}
+
 
 /*
 Hind Guntur font weights
@@ -68,14 +66,6 @@ h4 {
 }
 
 /* Layout styling */
-main {
-  padding-top: 112.8px;
-}
-
-body {
-  background-color: #ffffff;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -84,6 +74,26 @@ body {
   padding: 0 15px;
 }
 
+/* body */
+body {
+  background-color: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+/* header */
 header {
   background-color: #F5E2EF;
   position: fixed;
@@ -94,52 +104,20 @@ header {
   box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-footer {
-  background-color: #F5E2EF;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  margin: 0 0 10px 0;
+.logo {
+  max-width: 300px;
 }
 
+/* navigation */
 nav {
   display: inline-block;
   width: 100%;
 }
 
-/* classes */
-.row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+/* main */
+main {
+  padding-top: 112.8px;
 }
-
-.info {
-  margin: 18px 0;
-}
-
-.social {
-  margin: 40px 0 18px 0;
-}
-
-.me {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-.logo {
-  max-width: 300px;
-}
-
-/* id's */
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 
 #hero h1 {
   text-align: center; /* Centers text */
@@ -164,8 +142,35 @@ nav {
   margin: 30px 0 10px 0;
 }
 
+.me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
 #project-case h3{
   text-align: center; /* Centers text */
+}
+
+/* footer */
+footer {
+  background-color: #F5E2EF;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 0 10px 0;
+}
+
+.info {
+  margin: 18px 0;
+}
+
+.social {
+  margin: 40px 0 18px 0;
 }
 
 
