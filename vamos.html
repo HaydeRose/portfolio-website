@@ -11,6 +11,9 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
+  <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;600&display=swap" rel="stylesheet">
@@ -29,6 +32,7 @@
   <header>
     <div class="container">
         <!-- Hayde logo -->
+        <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lass="logo" id="logo" width="168" height="68" viewBox="0 0 168 68">
             <defs>
@@ -51,7 +55,6 @@
               <text id="Hayde_Rose_" data-name="Hayde Rose " class="cls-2" transform="translate(6 38)"><tspan x="0" y="0">Hayde Rose </tspan></text>
             </g>
           </svg>
-
         </a>
         <!-- For the navigation -->
         <nav>
@@ -59,8 +62,10 @@
           <li><a class="menu-link" href="index.html">Work</a></li>
           <li><a class="menu-link" href="about.html">About</a></li>
           <li><a class="menu-link" href="#contact">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
     </nav>
+  </div>
     </div>
   </header>
 

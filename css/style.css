@@ -105,7 +105,7 @@ header {
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 150px;
 }
 
 /* navigation */
@@ -347,6 +347,9 @@ it could get overwritten by other less specific rules, such as the general styli
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  body {
+    font-size: 18px;
+  }
   header {
    text-align: unset;
    padding: 20px 0 13px;
@@ -356,11 +359,11 @@ Medium devices (640px and larger)
    float: right;
    margin-top: 4px;
  }
+ .logo {
+   max-width: 300px;
+ }
  main {
    padding-top: 99px;
- }
- body {
-   font-size: 18px;
  }
  .cls-2 {
    font-size: 1.5px;
