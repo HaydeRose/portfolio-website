@@ -98,7 +98,7 @@ header {
   background-color: #F5E2EF;
   position: fixed;
   width:100%;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   margin: 0 0 10px 0;
   box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
@@ -107,16 +107,11 @@ header {
   max-width: 150px;
 }
 
-/* navigation */
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 /*nav styling*/
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li a {
@@ -143,13 +138,36 @@ nav ul li a:active {
   font-weight: 600;
   color: #0f0f17;
 }
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 .navtoggle li:not(:last-child) {
   display: none;
 }
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+  color: #5C2349;
+}
+
 
 /* main */
 main {
-  padding-top: 112.8px;
+  padding-top: 92.59px;
 }
 
 #hero h1 {
@@ -205,7 +223,6 @@ footer {
 .social {
   margin: 40px 0 18px 0;
 }
-
 
 /* links */
 a {
@@ -359,10 +376,13 @@ Medium devices (640px and larger)
    float: right;
    margin-top: 4px;
  }
+ nav ul {
+  margin: 1em 0;
+}
  nav ul li {
    display: inline-block;
- }
- .navtoggle li:not(:last-child) {
+}
+.navtoggle li:not(:last-child) {
   display: inline-block;
 }
 .navtoggle li:last-child {
