@@ -139,29 +139,50 @@ nav ul li a:active {
   color: #0f0f17;
 }
 
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
-.navtoggle.responsive li  {
-  display: block;
-  padding: 10px 0;
-}
 .navtoggle.responsive li:last-child  {
-  padding: 0 0 10px;
+padding: 0 0 10px;
 }
+
 .navtoggle li:not(:last-child) {
-  display: none;
+display: none;
 }
+
 .navtoggle, .navtoggle.responsive {
-  position: relative;
+position: relative;
 }
+
+.navtoggle.responsive nav {
+padding: 24px 0 0;
+}
+
 .navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-  color: #5C2349;
+position: absolute;
+right: 0;
+top: 2px;
+font-size: 20px;
+padding-right: 0;
+padding-top: 5px;
+color: #5C2349;
+}
+
+.navtoggle li .icon:active {
+color: #0f0f17;
+}
+
+.navtoggle.responsive li {
+text-align: center;
+color: #5C2349;
+display: block;
+padding: 15px 0;
+}
+
+.logo.responsive a {
+text-align: center;
+}
+
+.navtoggle.responsive li:visited {
+text-decoration: none;
+color: #DB53AE;
 }
 
 
