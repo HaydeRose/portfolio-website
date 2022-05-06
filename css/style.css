@@ -119,19 +119,19 @@ nav ul li a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #DB53AE;
+  color: #f806a5;
 }
 nav ul li a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #0f0f17;
+  color: #ffffff;
 }
 nav ul li a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #0f0f17;
+  color: #ffffff;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -157,16 +157,16 @@ top: 2px;
 font-size: 20px;
 padding-right: 0;
 padding-top: 5px;
-color: #5C2349;
+color: #f806a5;
 }
 
 .navtoggle li .icon:active {
-color: #0f0f17;
+color: #f806a5;
 }
 
 .navtoggle.responsive li {
 text-align: center;
-color: #5C2349;
+color: #ffffff;
 display: block;
 padding: 15px 0;
 }
@@ -177,7 +177,7 @@ text-align: center;
 
 .navtoggle.responsive li:visited {
 text-decoration: none;
-color: #DB53AE;
+color: #f806a5;
 }
 
 
@@ -191,14 +191,9 @@ main {
   color: #f806a5;
 }
 
-#hero p {
-  text-align: center; /* Centers text */
-  color: #f806a5;
-}
-
 #hero {
   background-color: #0f0f17;
-  padding: 20px 0;
+  padding: 250px 0;
   display: inline-block;
   width: 100%;
 }
