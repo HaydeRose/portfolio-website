@@ -76,7 +76,7 @@ h4 {
 
 /* body */
 body {
-  background-color: #C9C3C3;;
+  background-color: #ffffff;
 }
 
 img {
@@ -95,7 +95,7 @@ img {
 
 /* header */
 header {
-  background-color: #F5E2EF;
+  background-color: #0f0f17;
   position: fixed;
   width:100%;
   padding: 10px 0 4px;
@@ -193,14 +193,16 @@ main {
 
 #hero h1 {
   text-align: center; /* Centers text */
+  color: #f806a5;
 }
 
 #hero p {
   text-align: center; /* Centers text */
+  color: #f806a5;
 }
 
 #hero {
-  background-color: #F5E2EF;
+  background-color: #0f0f17;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
