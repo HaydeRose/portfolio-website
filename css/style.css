@@ -119,19 +119,19 @@ nav ul li a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #f806a5;
+  color: #ffffff;
 }
 nav ul li a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #ffffff;
+  color: #f806a5;
 }
 nav ul li a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #ffffff;
+  color: #f806a5;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -161,12 +161,12 @@ color: #f806a5;
 }
 
 .navtoggle li .icon:active {
-color: #f806a5;
+color: #ffffff;
 }
 
 .navtoggle.responsive li {
 text-align: center;
-color: #ffffff;
+color: #f806a5;
 display: block;
 padding: 15px 0;
 }
@@ -177,7 +177,7 @@ text-align: center;
 
 .navtoggle.responsive li:visited {
 text-decoration: none;
-color: #f806a5;
+color: #ffffff;
 }
 
 
@@ -188,7 +188,7 @@ main {
 
 #hero h1 {
   text-align: center; /* Centers text */
-  color: #f806a5;
+  color: #ffffff;
 }
 
 #hero {
@@ -198,8 +198,25 @@ main {
   width: 100%;
 }
 
+.intro {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 8%;
+    width: 100%;
+  }
+}
+
 #about-me{
-  background-color: #F5E2EF;
+  background-color: #Ffffff;
 }
 
 #my-story h3 {
@@ -222,6 +239,29 @@ main {
 
 #project-case h3{
   text-align: center; /* Centers text */
+}
+
+/* En tus manos Animation */
+@keyframes pajaro-move {
+  from {transform: translate(50px,50px);}
+  to {transform: translate(1000px,50px);}
+}
+.pajaro {
+  animation: 35s pajaro-move infinite normal linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,604px);}
+  to {transform: translate(134px,604px);}
+}
+.nube-1 {
+  animation: 35s cloud-move infinite normal linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(1070px,827px);}
+  to {transform: translate(600px,827px);}
+}
+.nube-2 {
+  animation: 40s cloud-move-reverse infinite normal linear;
 }
 
 /* footer */
@@ -292,29 +332,6 @@ footer ul li a:active {
   text-transform: uppercase;
   font-weight: 600;
   color: #0f0f17;
-}
-
-/* Animation */
-@keyframes pajaro-move {
-  from {transform: translate(50px,50px);}
-  to {transform: translate(1000px,50px);}
-}
-.pajaro {
-  animation: 35s pajaro-move infinite normal linear;
-}
-@keyframes cloud-move {
-  from {transform: translate(0,604px);}
-  to {transform: translate(134px,604px);}
-}
-.nube-1 {
-  animation: 35s cloud-move infinite normal linear;
-}
-@keyframes cloud-move-reverse {
-  from {transform: translate(1070px,827px);}
-  to {transform: translate(600px,827px);}
-}
-.nube-2 {
-  animation: 40s cloud-move-reverse infinite normal linear;
 }
 
 
