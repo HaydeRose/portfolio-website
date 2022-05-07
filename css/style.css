@@ -57,7 +57,7 @@ h3 {
 
 h4 {
   font-size: 1.35em;
-  font-weight: 700;
+  font-weight: 1.400;
 }
 
 /* Layout styling */
@@ -215,12 +215,27 @@ main {
   }
 }
 
-#about-me{
-  background-color: #Ffffff;
+#about-me {
+  background-color: #0f0f17;
+  padding: 50px 0 50px;
 }
-
+#about-me h1 {
+  color: #ffffff;
+  text-align: center;
+}
 #my-story h3 {
+  color: #ffffff;
   margin: 30px 0 10px 0;
+}
+#my-story h4 {
+  color: #ffffff;
+}
+#my-story p {
+  color: #ffffff;
+  margin: 20px 0 30px;
+}
+#my-story li {
+  color: #ffffff;
 }
 
 .illustration {
@@ -236,6 +251,11 @@ main {
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+#work h1 {
+  text-align: center;
+  margin: 40px 0;
+}
 
 #project-case h3{
   text-align: center; /* Centers text */
