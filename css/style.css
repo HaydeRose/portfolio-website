@@ -84,6 +84,7 @@ img {
   height: auto;
 }
 
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
@@ -236,6 +237,13 @@ main {
 }
 #my-story li {
   color: #ffffff;
+}
+
+.trico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .illustration {
