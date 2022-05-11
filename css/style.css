@@ -231,18 +231,19 @@ main {
   color: #ffffff;
   text-align: center;
 }
-#my-story h3 {
+
+.my-story h3 {
   color: #ffffff;
   margin: 30px 0 10px 0;
 }
-#my-story h4 {
+.my-story h4 {
   color: #ffffff;
 }
-#my-story p {
+.my-story p {
   color: #ffffff;
   margin: 20px 0 30px;
 }
-#my-story li {
+.my-story li {
   color: #ffffff;
 }
 
