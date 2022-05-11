@@ -70,10 +70,6 @@ h4 {
 }
 
 /* body */
-body {
-  background-color: #ffffff;
-}
-
 img {
   width: 100%;
 }
@@ -376,7 +372,7 @@ it could get overwritten by other less specific rules, such as the general styli
 .button {
   display: inline-block;
   background-color: #F5BEE3;
-  color: #ffffff;/* needed to override the default link color */
+  color: #585858;/* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -387,7 +383,7 @@ it could get overwritten by other less specific rules, such as the general styli
 .button:hover {
   display: inline-block;
   background-color: #0f0f17;
-  color: #ffffff;/* needed to override the default link color */
+  color: #585858;/* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -399,7 +395,7 @@ it could get overwritten by other less specific rules, such as the general styli
 .button:active {
   display: inline-block;
   background-color: #0f0f17;
-  color: #ffffff;/* needed to override the default link color */
+  color: #585858;/* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -417,7 +413,7 @@ it could get overwritten by other less specific rules, such as the general styli
 
 .button.contact:hover {
   background-color: #DB53AE;
-  color: #ffffff;
+  color: #585858;
   opacity: 0.8;/* Opacity of the button to 80% */
 }
 
