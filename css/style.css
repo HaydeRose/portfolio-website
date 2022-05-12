@@ -80,7 +80,6 @@ img {
   height: auto;
 }
 
-
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
@@ -97,6 +96,25 @@ header {
 
 .logo {
   max-width: 150px;
+}
+
+/* links */
+a {
+  color: #DB53AE;
+  text-decoration: none;/* No underlining */
+  transition:  0.2s opacity;
+}
+a:hover,
+a:focus {
+  color: #0f0f17;
+  text-decoration: none;/* Underlining when hovering over a link */
+  opacity: 0.8;/* Opacity of the button to 80% */
+}
+a:visited {/* visited link */
+  color: #DB53AE;
+}
+a:active {/* selected link */
+  color: #0f0f17;
 }
 
 /*nav styling*/
@@ -312,25 +330,6 @@ footer {
 
 .social {
   margin: 40px 0 18px 0;
-}
-
-/* links */
-a {
-  color: #DB53AE;
-  text-decoration: none;/* No underlining */
-  transition:  0.2s opacity;
-}
-a:hover,
-a:focus {
-  color: #0f0f17;
-  text-decoration: none;/* Underlining when hovering over a link */
-  opacity: 0.8;/* Opacity of the button to 80% */
-}
-a:visited {/* visited link */
-  color: #DB53AE;
-}
-a:active {/* selected link */
-  color: #0f0f17;
 }
 
 /*footer styling*/
