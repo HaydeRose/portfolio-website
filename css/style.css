@@ -105,7 +105,7 @@ header {
 
 /* links */
 a {
-  color: #db53ae;
+  color: #400a2e;
   text-decoration: none;/* No underlining */
   transition: 0.2s opacity;
 }
@@ -118,7 +118,7 @@ a:focus {
 }
 
 a:visited {/* visited link */
-  color: #db53ae;
+  color: #400a2e;
 }
 
 a:active {/* selected link */
@@ -251,31 +251,31 @@ main {
 }
 
 #about-me {
-  background-color: #0f0f17;
+  background-color: #fff;
   padding: 50px 0;
 }
 
 #about-me h1 {
-  color: #fff;
+  color: #0f0f17;
   text-align: center;
 }
 
 .my-story h3 {
-  color: #fff;
+  color: #0f0f17;
   margin: 30px 0 10px;
 }
 
 .my-story h4 {
-  color: #fff;
+  color: #0f0f17;
 }
 
 .my-story p {
-  color: #fff;
+  color: #0f0f17;
   margin: 20px 0 30px;
 }
 
 .my-story li {
-  color: #fff;
+  color: #0f0f17;
 }
 
 .trico {
@@ -378,7 +378,7 @@ footer ul li a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #db53ae;
+  color: #400a2e;
 }
 
 footer ul li a:hover {
@@ -433,15 +433,15 @@ it could get overwritten by other less specific rules, such as the general styli
 
 .button.contact {
   background-color: transparent;
-  color: #db53ae;
+  color: #400a2e;
   text-transform: uppercase;
-  border: 2px solid #db53ae;
+  border: 2px solid #400a2e;
   transition: 0.2s opacity;
 }
 
 .button.contact:hover {
-  background-color: #db53ae;
-  color: #585858;
+  background-color: #400a2e;
+  color: #fff;
   opacity: 0.8;/* Opacity of the button to 80% */
 }
 
