@@ -91,7 +91,7 @@ img {
 
 /* header */
 header {
-  background-color: #0f0f17;
+  background-color: #d9d8dd;
   position: fixed;
   width: 100%;
   padding: 10px 0 4px;
@@ -222,11 +222,11 @@ main {
 
 #hero h1 {
   text-align: center; /* Centers text */
-  color: #fff;
+  color: #0f0f17;
 }
 
 #hero {
-  background-color: #0f0f17;
+  background-color: #d9d8dd;
   padding: 250px 0;
   display: inline-block;
   width: 100%;
