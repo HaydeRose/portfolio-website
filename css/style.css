@@ -14,7 +14,7 @@ Regular 400
 SemiBold 600
 */
 body {
-  background-color: #c9c3c3;
+  background-color: #d9d8dd;
   font-family: 'Hind Guntur', sans-serif;
   font-size: 16px;
 
@@ -96,7 +96,6 @@ header {
   width: 100%;
   padding: 10px 0 4px;
   margin: 0 0 10px;
-  box-shadow: 0 10px 5px 0 rgba(50, 50, 50, 0.75);
 }
 
 .logo {
@@ -136,7 +135,7 @@ nav ul li a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #4a4a4a;
+  color: #fff;
 }
 
 nav ul li a:visited {
