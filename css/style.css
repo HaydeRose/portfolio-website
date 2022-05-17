@@ -365,7 +365,12 @@ footer {
 }
 
 .social {
-  margin: 40px 0 18px;
+  margin: 100px 0 18px;
+}
+
+
+.copyright {
+  font-size: 11px;
 }
 
 /* footer styling */
