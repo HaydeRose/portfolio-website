@@ -134,29 +134,30 @@ nav ul {
 nav ul li a {
   padding: 0 15px;
   text-transform: uppercase;
+  font-size: 30px;
   font-weight: 600;
-  color: #fff;
+  color: #f408d8;
 }
 
 nav ul li a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff;
+  color: #f408d8;
 }
 
 nav ul li a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #f806a5;
+  color: #0f0f17;
 }
 
 nav ul li a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #f806a5;
+  color: #0f0f17;
 }
 
 /*
@@ -182,36 +183,47 @@ nav ul li a:active {
 .navtoggle,
 .navtoggle.responsive {
   position: relative;
+  background-color: #d9d8dd;
+  width: 100%;
+  padding: 10px 0 4px;
+  margin: 0 0 10px;
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 90px 0 130px;
 }
 
 .navtoggle li .icon {
   position: absolute;
   right: 0;
   top: 2px;
-  font-size: 20px;
-  padding-right: 0;
+  font-size: 30px;
+  padding-right: 15px;
   padding-top: 5px;
-  color: #fff;
-  text-align: center;
+  color: #f408d8;
 }
 
 .navtoggle li .icon:active {
-  color: #fff;
+  color: #f408d8;
 }
 
 .navtoggle.responsive li {
   color: #f806a5;
   display: block;
-  padding: 15px 0;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.navtoggle.responsive li span {
+  color: #400a2e;
+  text-transform: capitalize;
+  font-weight: 300;
+  text-align: center;
 }
 
 .navtoggle.responsive li:visited {
   text-decoration: none;
-  color: #fff;
+  color: #0f0f17;
 }
 
 /* main */
@@ -469,16 +481,7 @@ Medium devices (640px and larger)
 
   nav {
     width: auto;
-    float: right;
     margin-top: 4px;
-  }
-
-  nav ul {
-    margin: 1em 0;
-  }
-
-  nav ul li {
-    display: inline-block;
   }
 
   .logo {
