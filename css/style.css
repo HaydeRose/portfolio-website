@@ -115,7 +115,7 @@ a:visited {/* visited link */
 a.button {
   display: inline-block;
   background-color: #f5bee3;
-  color: #585858;/* needed to override the default link color */
+  color: #400a2e;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -127,8 +127,9 @@ a.button {
 }
 a.button:hover,
 a.button:active {
-  background-color: #0f0f17;
-  color: #585858;/* needed to override the default link color */
+  background-color: #400a2e;
+  color: #fff;/* needed to override the default link color */
+  border: 1px solid #400a2e;
 }
 
 a.button.contact {
@@ -152,7 +153,6 @@ a.button:active {/* selected link */
   text-align: center;
   margin-top: 15px;
 }
-
 /* nav styling */
 nav ul {
   list-style-type: none;
