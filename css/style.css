@@ -102,26 +102,55 @@ header {
   max-width: 150px;
 }
 
-/* links */
+/* links & buttons */
 a {
   color: #400a2e;
   text-decoration: none;/* No underlining */
-  transition: 0.2s opacity;
-}
-
-a:hover,
-a:focus {
-  color: #0f0f17;
-  text-decoration: none;/* Underlining when hovering over a link */
-  opacity: 0.8;/* Opacity of the button to 80% */
 }
 
 a:visited {/* visited link */
   color: #400a2e;
 }
 
-a:active {/* selected link */
-  color: #0f0f17;
+a.button {
+  display: inline-block;
+  background-color: #f5bee3;
+  color: #585858;/* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #f5bee3;/* width of the border, type, color */
+  transition: 0.2s all;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+a.button:hover,
+a.button:active {
+  background-color: #0f0f17;
+  color: #585858;/* needed to override the default link color */
+}
+
+a.button.contact {
+  background-color: transparent;
+  color: #400a2e;
+  border: 1px solid #400a2e;
+}
+
+a.button.contact:hover,
+a.button.contact:active {
+  background-color: #400a2e;
+  border-color: #400a2e;
+  color: #fff;
+}
+
+a.button:active {/* selected link */
+  text-decoration: underline;
+}
+
+.button-cont {
+  text-align: center;
+  margin-top: 15px;
 }
 
 /* nav styling */
@@ -380,7 +409,7 @@ footer {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding: 100px 0;
+  padding: 125px 0;
   margin: 0 0 10px;
 }
 
@@ -389,7 +418,7 @@ footer {
 }
 
 .social {
-  margin: 100px 0 18px;
+  margin: 50px 0 18px;
 }
 
 .copyright {
@@ -432,56 +461,6 @@ footer ul li a:active {
   text-transform: uppercase;
   font-weight: 600;
   color: #0f0f17;
-}
-
-/* Make sure you put this rule at the END of your “styles.css” document. It needs to go close to the bottom; otherwise,
-it could get overwritten by other less specific rules, such as the general styling rules for all of your hyperlinks */
-.button {
-  display: inline-block;
-  background-color: #f5bee3;
-  color: #585858;/* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px 10px;
-  border-radius: 3px;
-  border: 2px solid #f5bee3;/* width of the border, type, color */
-  transition: 0.2s opacity;
-}
-
-.button:hover {
-  display: inline-block;
-  background-color: #0f0f17;
-  color: #585858;/* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px 10px;
-  border-radius: 3px;
-  border: 2px solid #0f0f17;/* width of the border, type, color */
-  opacity: 0.8;/* Opacity of the button to 80% */
-  text-decoration: none;
-}
-
-.button:active {
-  display: inline-block;
-  background-color: #0f0f17;
-  color: #585858;/* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px 10px;
-  border-radius: 3px;
-  border: 2px solid #0f0f17;/* width of the border, type, color */
-  text-decoration: none;
-}
-
-.button.contact {
-  background-color: transparent;
-  color: #400a2e;
-  text-transform: uppercase;
-  border: 2px solid #400a2e;
-  transition: 0.2s opacity;
-}
-
-.button.contact:hover {
-  background-color: #400a2e;
-  color: #fff;
-  opacity: 0.8;/* Opacity of the button to 80% */
 }
 
 /* ==============================
