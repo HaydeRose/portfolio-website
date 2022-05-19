@@ -247,13 +247,22 @@ main {
 
 #hero {
   background-color: #d9d8dd;
-  padding: 250px 0;
+  padding: 120px 0;
   display: inline-block;
   width: 100%;
 }
 
+.intro h1,
+  h2 {
+  background-color: #f408d8;
+  display: block;
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 30px;
+}
+
 .intro {
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein;
   animation-iteration-count: 1;
 }
@@ -357,6 +366,27 @@ main {
   text-align: center;
 }
 
+.manos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 4px;
+  width: 50%;
+  border-radius: 30px;
+  border: 1px solid #0f0f17;
+}
+
+#animated h3,
+  p {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#animated.container {
+  padding-bottom: 30px;
+}
+
 /* En tus manos Animation */
 @keyframes pajaro-move {
   from { transform: translate(50px, 50px); }
@@ -382,7 +412,7 @@ main {
 }
 
 .nube-2 {
-  animation: 40s cloud-move-reverse infinite normal linear;
+  animation: 35s cloud-move-reverse infinite normal linear;
 }
 
 /* footer */
