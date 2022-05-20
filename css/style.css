@@ -89,6 +89,10 @@ img {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+#hero {
+  margin-top: 99px;
+}
+
 /* header */
 header {
   background-color: #d9d8dd;
@@ -99,7 +103,7 @@ header {
 
 .logo {
   max-width: 150px;
-  margin: 20px 0 15px 30px
+  margin: 20px 0 15px;
 }
 
 /* links & buttons */
@@ -209,7 +213,7 @@ a:active {
   right: 0;
   top: 2px;
   font-size: 30px;
-  padding-right: 30px;
+  padding-right: 60px;
   padding-top: 20px;
   color: #f408d8;
 }
@@ -221,15 +225,14 @@ a:active {
 .navtoggle.responsive li {
   color: #f806a5;
   display: block;
-  padding: 25px 0;
+  padding-top: 25px;
   text-align: center;
 }
 
-.navtoggle.responsive li span {
+.navtoggle.responsive span {
   color: #400a2e;
   text-transform: capitalize;
   font-weight: 300;
-  text-align: center;
 }
 
 .navtoggle.responsive li:visited {
@@ -284,6 +287,7 @@ main {
 
 .my-story h4 {
   color: #0f0f17;
+  text-align: justify;
 }
 
 .my-story p {
