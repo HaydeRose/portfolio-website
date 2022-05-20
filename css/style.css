@@ -92,34 +92,34 @@ img {
 /* header */
 header {
   background-color: #d9d8dd;
-  position: fixed;
+  position: relative;
   width: 100%;
-  padding: 10px 0 4px;
-  margin: 0 0 10px;
+  height: 50px;
 }
 
 .logo {
   max-width: 150px;
+  margin: 20px 0 15px 30px
 }
 
 /* links & buttons */
 a {
-  color: #400a2e;
+  color: #f408d8;
   text-decoration: none;/* No underlining */
 }
 
 a:visited {/* visited link */
-  color: #400a2e;
+  color: #f408d8;
 }
 
 a.button {
   display: inline-block;
-  background-color: #f5bee3;
-  color: #400a2e;
+  background-color: #f408d8;
+  color: #fff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border: 1px solid #f5bee3;/* width of the border, type, color */
+  border: 2px solid #f408d8;/* width of the border, type, color */
   transition: 0.2s all;
   text-decoration: none;
   text-transform: uppercase;
@@ -127,21 +127,21 @@ a.button {
 }
 a.button:hover,
 a.button:active {
-  background-color: #400a2e;
+  background-color: #0f0f17;
+  border: 2px solid #0f0f17;
   color: #fff;/* needed to override the default link color */
-  border: 1px solid #400a2e;
 }
 
 a.button.contact {
-  background-color: transparent;
-  color: #400a2e;
-  border: 1px solid #400a2e;
+  background-color: #f408d8;;
+  border: 1px solid #f408d8;
+  color: #fff;
 }
 
 a.button.contact:hover,
 a.button.contact:active {
-  background-color: #400a2e;
-  border-color: #400a2e;
+  background-color: #0f0f17;
+  border-color: #0f0f17;
   color: #fff;
 }
 
@@ -153,6 +153,7 @@ a.button:active {/* selected link */
   text-align: center;
   margin-top: 15px;
 }
+
 /* nav styling */
 nav ul {
   list-style-type: none;
@@ -204,12 +205,12 @@ a:active {
 }
 
 .navtoggle li .icon {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 2px;
   font-size: 30px;
-  padding-right: 15px;
-  padding-top: 5px;
+  padding-right: 30px;
+  padding-top: 20px;
   color: #f408d8;
 }
 
@@ -228,6 +229,7 @@ a:active {
   color: #400a2e;
   text-transform: capitalize;
   font-weight: 300;
+  text-align: center;
 }
 
 .navtoggle.responsive li:visited {
@@ -237,28 +239,19 @@ a:active {
 
 /* main */
 main {
-  padding-top: 92.59px;
+  padding: 0 0 4px;
 }
 
-#hero h1 {
+#hero h2,
+  h4 {
   text-align: center; /* Centers text */
   color: #0f0f17;
 }
 
 #hero {
   background-color: #d9d8dd;
-  padding: 120px 0;
   display: inline-block;
   width: 100%;
-}
-
-.intro h1,
-  h2 {
-  background-color: #f408d8;
-  display: block;
-  padding: 10px 10px;
-  width: 100%;
-  border-radius: 30px;
 }
 
 .intro {
@@ -302,7 +295,7 @@ main {
   color: #0f0f17;
 }
 
-.subtitle h3 {
+.my-story h3 {
   text-align: center;
 }
 
@@ -322,9 +315,10 @@ main {
   width: 50%;
 }
 
-.illustration {
+.home-img {
   display: block;
   width: 50%;
+  margin-left: 25%;
 }
 
 .me {
@@ -345,14 +339,25 @@ main {
   border-bottom: 1px solid #4a4a4a;
 }
 
-#work h1 {
+#work h3 {
   text-align: center;
-  margin: 40px 0;
-  padding-top: 109px;
+  padding: 40px 0;
+}
+
+#work h4 {
+  text-align: left;
+}
+
+#work p {
+  text-align: left;
 }
 
 #project-case h3 {
   text-align: center; /* Centers text */
+}
+
+#work.button {
+  margin: 18px 0;
 }
 
 /* View resume button */
@@ -376,11 +381,25 @@ main {
   border: 1px solid #0f0f17;
 }
 
-#animated h3,
-  p {
+#animated h3 {
   display: inline-block;
   width: 100%;
   text-align: center;
+  margin: 20px 0 18px;
+}
+
+#animated h4 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 0;
+}
+
+#animated p {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 18px;
 }
 
 #animated.container {
@@ -485,12 +504,10 @@ Medium devices (640px and larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 13px;
   }
 
   nav {
     width: auto;
-    margin-top: 4px;
   }
 
   .logo {
