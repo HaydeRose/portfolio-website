@@ -230,8 +230,9 @@ a:active {
 }
 
 .navtoggle.responsive span {
-  color: #400a2e;
+  color: #0f0f17;
   text-transform: capitalize;
+  font-size: 24px;
   font-weight: 300;
 }
 
