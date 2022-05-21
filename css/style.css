@@ -413,6 +413,15 @@ main {
 }
 
 /* En tus manos Animation */
+@keyframes sol-move {
+  from { transform: translate(639px, 400px); }
+  to { transform: translate(639px, 163px); }
+}
+
+.sol {
+  animation: 35s sol-move normal forwards;
+}
+
 @keyframes pajaro-move {
   from { transform: translate(50px, 50px); }
   to { transform: translate(1000px, 50px); }
