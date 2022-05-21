@@ -336,6 +336,7 @@ main {
 
 #about-me .headshot{
   overflow: hidden;
+  max-width: 767px;
   border-radius: 50% 20% / 10% 40%;
 }
 
