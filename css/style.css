@@ -304,18 +304,18 @@ a.button:active {/* selected link */
 .fullnavBtn.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
           transform: translateY(11px) translateX(0) rotate(45deg);
-  background: #f408d8;
+  background: #d9d8dd;
 }
 
 .fullnavBtn.active .middle {
   opacity: 0;
-  background: #f408d8;
+  background: #d9d8dd;
 }
 
 .fullnavBtn.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
           transform: translateY(-11px) translateX(0) rotate(-45deg);
-  background: #f408d8;
+  background: #d9d8dd;
 }
 .fullnavBtn span {
   background: #f408d8;
