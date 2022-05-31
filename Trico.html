@@ -17,8 +17,15 @@
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <script src="https://kit.fontawesome.com/459fd6b4ea.js" crossorigin="anonymous"></script>
-
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function () {
+      $('#toggle').click(function() {
+         $(this).toggleClass('active');
+         $('#fullnav').toggleClass('open');
+        });
+        });
+  </script>
 </head>
 
 <body>
@@ -27,7 +34,7 @@
   <header>
     <div class="container">
       <!-- Hayde logo -->
-      <div class="navtoggle" id="myNavtoggle">
+      <div>
         <a href="index.html">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" class="logo" height="50" viewBox="0 0 102 50">
             <defs>
@@ -41,14 +48,21 @@
           </svg>
         </a>
         <!-- For the navigation -->
-        <nav>
-          <ul>
-            <li><a class="menu-link" href="index.html#work" onclick="menuToggle()">Work</a></li>
-            <li><a class="menu-link" href="about.html">About></a></li>
-            <li><a class="menu-link" href="#contact" onclick="menuToggle()">Contact</a></li>
-            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-          </ul>
-        </nav>
+        <div class="fullnavBtn" id="toggle">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </div>
+
+          <div class="fullnav" id="fullnav">
+            <nav class="fullnavMenu">
+              <ul>
+                <li ><a href="index.html#work" onclick="toggle">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact" onclick="toggle">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
       </div>
     </div>
   </header>
