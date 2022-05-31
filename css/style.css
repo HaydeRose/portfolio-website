@@ -285,7 +285,6 @@ a.button:active {/* selected link */
 }
 
 /* Overlay style button*/
-
 .fullnavBtn {
   position: fixed;
   top: 5%;
@@ -297,18 +296,22 @@ a.button:active {/* selected link */
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
 }
+
 .fullnavBtn:hover {
   opacity: .7;
 }
+
 .fullnavBtn.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
           transform: translateY(11px) translateX(0) rotate(45deg);
   background: #f408d8;
 }
+
 .fullnavBtn.active .middle {
   opacity: 0;
   background: #f408d8;
 }
+
 .fullnavBtn.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
           transform: translateY(-11px) translateX(0) rotate(-45deg);
@@ -326,9 +329,11 @@ a.button:active {/* selected link */
   transition: all .35s ease;
   cursor: pointer;
 }
+
 .fullnavBtn span:nth-of-type(2) {
   top: 11px;
 }
+
 .fullnavBtn span:nth-of-type(3) {
   top: 22px;
 }
