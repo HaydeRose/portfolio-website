@@ -176,7 +176,7 @@ a.button:active {/* selected link */
 }
 
 .fullnav.open {
-  opacity: .9;
+  opacity: .8;
   visibility: visible;
   height: 100%;
 }
