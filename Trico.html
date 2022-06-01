@@ -48,7 +48,7 @@
         </div>
 
           <div class="fullnav" id="fullnav">
-            <nav class="fullnavMenu">
+            <nav class="fullnavMenu navbar-nav">
               <ul>
                 <li ><a href="index.html#work" onclick="toggle">Work</a></li>
                 <li><a href="about.html">About</a></li>
@@ -513,6 +513,19 @@
          $('#fullnav').toggleClass('open');
         });
         });
+  </script>
+
+  <script>
+    /====================================
+    Allows Mobile navbar-nav to collapse when anchor is clicked
+    ======================================/
+    $(".navbar-nav li a").click(function (event) {
+      // check if window is small enough so dropdown is created
+      var toggle = $(".navbar-toggle").is(":visible");
+      if (toggle) {
+        $(".navbar-collapse").collapse('hide');
+      }
+    });
   </script>
 
 </body>
