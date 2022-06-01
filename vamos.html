@@ -455,14 +455,10 @@
   </script>
 
   <script>
-    /====================================
-    Allows Mobile fullnavMenu to collapse when anchor is clicked
-    ======================================/
-    $('.fullnavMenu li a').click(function (event) {
-      // check if window is small enough so dropdown is created
-      var toggle = $('#toggle').is(':visible');
+    $('.navbar-nav li a').click(function () {
+      var toggle = $('.navbar-toggle').is(':visible');
       if (toggle) {
-        $('#fullnav').collapse('hide');
+        $('.navbar-collapse').collapse('hide');
       }
     });
   </script>
